@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">О нашем проекте</h1>
+      <p class="fs-5 text-muted">Наша компания обеспечит вам полет и море эмоций, сделав это с абсолютной 100% безопасностью для вас!Мы знаем все о роупджампинге и адреналине!Приглашаем в школу по обучению катаний на сноуборде и горным лыжам. Мы проводим групповые занятия для новичков и индивидуальные занятия.</p>
+    </div>
+<main>
+  <div class = "container">
+    <div class="row row justify-content-between text-center">
+      <div class="col-6">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Сноубординг</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">100 рублей<small class="text-muted fw-light">/час</small></h1>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary" ><a href="/snowboarding">Записаться</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Роуп-джампинг</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">80 рублей<small class="text-muted fw-light">/прыжок</small></h1>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary"><a href="/index">Записаться</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </main>
+{% endblock %}
