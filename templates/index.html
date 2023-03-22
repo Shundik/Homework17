@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Роуп-джампинг
+{% endblock %}
+
+{% block body %}
+
+<div class = 'container mt-5'>
+    <h1>Зарегистрируйтесь на занятия по Роуп-джампингу</h1>
+       <form method = "post">
+      <input type="tel" name = 'tel'  class="form-control" id="tel" placeholder="Введите номер телефона (44ХХХХХХХ)"><br>
+      <input type = 'text' name = 'name'  class="form-control" id="name" placeholder="Введите ваше имя"><br>
+
+         </form>
+      <li class="mb-1"><a class="link-secondary text-decoration-none" href="/registration">Зарегистрироваться</a></li>
+</div>
+
+
+{% endblock %}
